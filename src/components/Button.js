@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./SsdwButton.module.scss";
+import styles from "./Button.module.scss";
 
 const SsdwButton = () => {
   return (
-    <div className={styles.solidSmallDefaultWhite}>
+    <div  className={styles.SolidBigDefaultWhite}>
       <p className={styles.subscribe}>Subscribe</p>
     </div>
   );

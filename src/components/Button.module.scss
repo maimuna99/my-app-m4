@@ -1,0 +1,108 @@
+.solidSmallDefaultWhite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 10px;
+    gap: 8px;
+    
+    position:static;
+    width: 125px;
+    height: 37px;
+    right: 1420px;
+    bottom: 818px;
+    
+    /* #E50914 */
+    
+    background: #E50914;
+    border-radius: 3px;
+  }
+
+.solidSmallDefaultWhite:hover {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px 10px 10px;
+gap: 8px;
+
+width: 125px;
+height: 37px;
+right: 1420px;
+bottom: 724px;
+
+/* RedMid
+
+destructive in default theme
+*/
+background: #AA0612;
+border-radius: 3px;
+  
+}
+.solidSmallDefaultWhite:disabled{
+  background: #F5F5F5;
+
+}
+
+.SolidBigDefaultWhite{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px 10px 0px;
+  gap: 8px;
+  
+  width: 266px;
+  height: 55px;
+  right: 1113px;
+  bottom: 818px;
+  
+  /* #E50914 */
+  
+  background: #E50914;
+  border-radius: 3px;
+}
+
+.SolidBigDefaultWhite:hover{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px 10px 0px;
+gap: 8px;
+
+width: 266px;
+height: 55px;
+right: 1113px;
+bottom: 724px;
+
+/* RedMid
+
+destructive in default theme
+*/
+background: #AA0612;
+border-radius: 3px;
+}
+
+.SolidBigDefaultWhite:disabled{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px 10px 0px;
+  gap: 8px;
+  width: 266px;
+  height: 55px;
+  right: 1113px;
+  bottom: 630px;
+  
+  /* LightGrey
+  
+  default states in dark theme/ disabled states
+  */
+  background: #B4B4B4;
+  border-radius: 3px;
+}
+.subscribe {
+  color: white;
+  letter-spacing: -0.2px;
+}

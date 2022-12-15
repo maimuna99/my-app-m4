@@ -9,7 +9,9 @@ import H4 from './components/H4.js'
 import H5 from './components/H5.js'
 import H6 from './components/H6.js'
 import Body from './components/Body.js'
-import SsdwButton from './components/SsdwButton.js'
+import Button from './components/Button.js'
+import StackHorizontal from './components/StackHorizontal.js'
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,8 @@ function App() {
     <H5/>
     <H6/>
     <Body/>
-    <SsdwButton/>
+    <Button />
+    <StackHorizontal/>
     </div>
   );
 }
