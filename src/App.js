@@ -10,7 +10,7 @@ import H5 from './components/H5.js'
 import H6 from './components/H6.js'
 import Body from './components/Body.js'
 import Button from './components/Button.js'
-import StackHorizontal from './components/StackHorizontal.js'
+
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
     <H6/>
     <Body/>
     <Button />
-    <StackHorizontal/>
+
     </div>
   );
 }
