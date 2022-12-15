@@ -10,11 +10,12 @@ import H5 from './components/H5.js'
 import H6 from './components/H6.js'
 import Body from './components/Body.js'
 import Button from './components/Button.js'
-
-
+import TextInput from './components/TextInput.js'
+import Header from './components/Heading.js'
 function App() {
   return (
     <div className="App">
+    <Header level={2}>sdfsdfsfd</Header>
     <H1/>
     <H2/>
     <H3/>
@@ -23,7 +24,8 @@ function App() {
     <H6/>
     <Body/>
     <Button />
-
+    <br></br><TextInput/>
+    
     </div>
   );
 }

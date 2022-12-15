@@ -1,0 +1,75 @@
+.textInput {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    gap: 10px;
+    width: 492px;
+    height: 55px;
+    left: 45px;
+    top: 53px;
+    
+    background: #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px;
+}
+
+.textInput:hover{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px 5px 10px;
+gap: 10px;
+
+width: 492px;
+height: 55px;
+left: 45px;
+top: 130px;
+
+background: #FFFFFF;
+/* Darkerblue
+
+Default theme active
+*/
+border: 2px solid #055CB4;
+border-radius: 3px;
+}
+
+.textInput:disabled{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 10px;
+gap: 10px;
+
+width: 492px;
+height: 55px;
+left: 45px;
+top: 284px;
+
+/* BgLight
+
+Default BG color
+*/
+background: #F5F5F5;
+/* LightGrey
+
+default states in dark theme/ disabled states
+*/
+border: 1px solid #B4B4B4;
+border-radius: 3px;
+
+}
+
