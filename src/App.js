@@ -7,7 +7,7 @@ import H2 from './components/H2.js'
 import H3 from './components/H3.js'
 import H4 from './components/H4.js'
 import H5 from './components/H5.js'
-
+import H6 from './components/H6.js'
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
     <H3/>
     <H4/>
     <H5/>
+    <H6/>
     </div>
   );
 }

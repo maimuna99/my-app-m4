@@ -1,0 +1,29 @@
+.text{
+    /* Unlimited movies, TV shows, and more. */
+
+
+width: 1186px;
+height: 28px;
+
+/* h6
+
+heading for small titles
+*/
+font-family: 'Suisse Intl';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: -0.2px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
